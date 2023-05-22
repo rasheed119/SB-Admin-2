@@ -41,21 +41,21 @@ function SignIn() {
             <div className='text-center m-2'>
               <h3>Create an Account</h3>
             </div>
-            <div class="input-group  mb-3">
+            <div className="input-group  mb-3">
               <span className="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
+              <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"></input>
             </div>
-            <div class="input-group mb-3">
+            <div className="input-group mb-3">
               <span className="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1"></input>
+              <input type="text" className="form-control" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1"></input>
             </div>
-            <div class="input-group mb-3">
+            <div className="input-group mb-3">
               <span className="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1"></input>
+              <input type="text" className="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1"></input>
             </div>            
-            <div class="input-group mb-3">
+            <div className="input-group mb-3">
               <span className="input-group-text" id="basic-addon1">@</span>
-              <input type="text" class="form-control" placeholder="Re-Enter Password" aria-label="Username" aria-describedby="basic-addon1"></input>
+              <input type="text" className="form-control" placeholder="Re-Enter Password" aria-label="Username" aria-describedby="basic-addon1"></input>
             </div>            
             <div className='text-center'>
               <button className='btn btn-secondary'>Sign In</button>

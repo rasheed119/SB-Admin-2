@@ -19,9 +19,10 @@ function Sidenamv({children}) {
 
 
 <li className="nav-item">
-    <a className="nav-link" href="" onClick={()=>history.push("/")}>
+    {/* <a className="nav-link" href="" onClick={()=>history.push("/")}>
         <i className="fas fa-fw fa-cog"></i>
-        <span>Dashboard</span></a>
+        <span>Dashboard</span></a> */}
+        <button className='nav-link' onClick={()=>history.push("/")}>Dashboard</button>
 </li>
 
 <hr className="sidebar-divider"></hr>
