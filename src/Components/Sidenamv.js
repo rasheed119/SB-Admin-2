@@ -34,19 +34,12 @@ function Sidenamv({children}) {
 
 
 <li className="nav-item">
-    <a className="nav-link" href='' onClick={()=>history.push("/Login")}>
-        <i className="fas fa-fw fa-cog"></i>
-        <span>Log In</span>
-    </a>
+  <button className='nav-link' onClick={()=>history.push("/Login")}>Log In</button>
 </li>
 
 
 <li className="nav-item">
-    <a className="nav-link collapsed" onClick={()=>history.push("/Signin")} href="#" data-toggle="collapse" data-target="#collapseUtilities"
-        aria-expanded="true" aria-controls="collapseUtilities">
-        <i className="fas fa-fw fa-wrench"></i>
-        <span>Sign In</span>
-    </a>
+ <button className='nav-link' onClick={()=>history.push("/Signin")}>Sign-In</button>
     <div id="collapseUtilities" className="collapse" aria-labelledby="headingUtilities"
         data-parent="#accordionSidebar">
         <div className="bg-white py-2 collapse-inner rounded">
