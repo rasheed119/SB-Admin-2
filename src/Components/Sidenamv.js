@@ -108,7 +108,9 @@ function Sidenamv({children}) {
 
 </ul>
 <div id="content-wrapper" className="d-flex flex-column">
-{children}
+    <div id='content'>
+   {children}
+   </div>
 </div>
     </div>
   )
